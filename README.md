@@ -18,17 +18,11 @@ Captures webcam pictures at a fixed interval (default: every 60 seconds) and sto
 Threaded Execution
 Screen capture and webcam capture run in the background using daemon threads.
 
-Project Structure
+Automatic Folder Creation
+The script creates all required directories on startup:
 
-local-activity-logger/
-│
-├── surveillance_script.py
-│
-├── logs/
-│   └── keylog.txt
-│
-├── screenshots/
-│   └── screen_YYYY-MM-DD_HH-MM-SS.png
-│
-└── webcam/
-    └── webcam_YYYY-MM-DD_HH-MM-SS.jpg
+logs/
+
+screenshots/
+
+webcam/
