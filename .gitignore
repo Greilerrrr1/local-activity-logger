@@ -1,0 +1,6 @@
+logs/
+screenshots/
+webcam/
+*.png
+*.jpg
+*.jpeg
